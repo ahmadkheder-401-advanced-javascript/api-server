@@ -1,0 +1,18 @@
+{
+  "categories": [
+    {
+      "id": "2",
+      "name": "x",
+      "display_name": "x",
+      "description": "electronics"
+    }
+  ],
+  "products": [
+    {
+      "id": "1",
+      "name": "x",
+      "display_name": "x",
+      "description": "Xxx"
+    }
+  ]
+}
