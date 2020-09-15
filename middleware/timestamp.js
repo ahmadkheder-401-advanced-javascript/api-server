@@ -1,8 +1,7 @@
 'use strict';
-function addTimestamp(req, res, next) {
-    let timestamp = new Date();
-    req.timestamp = timestamp;
-    next();
-  }
-  
-  module.exports = addTimestamp;
+module.exports = (req, res, next) => {
+  const date = new Date();
+  req.requestTime = date.toUTCString();
+  console.log(req.requestTime)
+  next();
+};
