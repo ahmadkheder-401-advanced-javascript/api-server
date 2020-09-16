@@ -1,7 +1,5 @@
 'use strict';
 function errorHandler(err, req, res, next) {
-  console.log("asdasdsad ::::::: errorHandler")
-  res.status(500);
-  res.json({ error: err });
+  res.status(500).send("errorHandler  500");
 }
 module.exports = errorHandler;
