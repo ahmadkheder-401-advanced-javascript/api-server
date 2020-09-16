@@ -18,6 +18,9 @@
   },
   "homepage": "https://github.com/ahmadkheder-401-advanced-javascript/api-server#readme",
   "dependencies": {
-    "json-server": "^0.16.1"
+    "dotenv": "^8.2.0",
+    "json-server": "^0.16.1",
+    "mongoose": "^5.10.5",
+    "supergoose": "^0.2.6"
   }
 }
